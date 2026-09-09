@@ -1,67 +1,42 @@
-# 📝 Python To-Do List
+# Python To-Do List
 
-A simple command-line **To-Do List** application built with **Python**. This project helps users organize and manage their daily tasks through an interactive menu-driven interface.
+A simple **Task Management App** built using Python. It allows users to add, update, delete, view, and manage the status of their tasks.
 
-## 🚀 Features
+## Features
 
-* ➕ Add new tasks
-* ✏️ Update existing tasks
-* ❌ Delete tasks
-* 📋 View all tasks
-* 🚪 Exit the application
+* Add new tasks
+* Update existing tasks
+* Delete tasks
+* View all tasks
+* Mark tasks as completed
+* Shows task status as **Pending** or **Completed**
+* Simple menu-based interface
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-* Python 3
+* Python 3.x
 
-## 📚 Concepts Covered
+## How to Run
 
-* Lists
-* Loops
-* Conditional Statements (`if`, `elif`, `else`)
-* User Input (`input()`)
-* String Formatting (f-strings)
+1. Make sure Python is installed on your computer.
+2. Download or clone this repository.
+3. Open the project folder in the terminal.
+4. Run the program:
 
-## ▶️ How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/riddhideshmukh15/Python-to_do_list.git
-   ```
-
-2. Navigate to the project folder:
-
-   ```bash
-   cd Python-to_do_list
-   ```
-
-3. Run the program:
-
-   ```bash
-   python app.py
-   ```
-
-## 📂 Project Structure
-
-```text
-Python-to_do_list/
-│── app.py
-└── README.md
+```bash
+python todolist.py
 ```
 
-## 🌱 Future Improvements
+## Example
 
-* Save tasks permanently using a file or database
-* Mark tasks as completed
-* Add task priorities
-* Add due dates
-* Build a graphical user interface (GUI)
+```text
+===== YOUR TASKS =====
+1. Brushing [Completed]
+2. Bathing [Pending]
+3. Study - 2 hours [Pending]
+4. Brunch [Pending]
+```
 
-## 🎯 Learning Outcome
+## Author
 
-This project was created to practice Python fundamentals, including lists, loops, conditional statements, user input, and building a menu-driven application.
-
----
-
-⭐ If you found this project helpful, consider giving it a star!
+Riddhi Deshmukh
